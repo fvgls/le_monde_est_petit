@@ -4,7 +4,7 @@ import json
 import math
 
 import matplotlib as mil
-mil.use('TkAgg')
+#mil.use('TkAgg')
 import matplotlib.pyplot as plt
 
 import pdb
