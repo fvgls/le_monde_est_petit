@@ -1,10 +1,13 @@
+import tkinter
+import _tkinter
+tkinter._test()
 import argparse
 from collections import defaultdict
 import json
 import math
 
 import matplotlib as mil
-#mil.use('TkAgg')
+mil.use('TkAgg')
 import matplotlib.pyplot as plt
 
 import pdb
