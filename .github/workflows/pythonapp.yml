@@ -15,6 +15,7 @@ jobs:
         python-version: 3.7
     - name: Install dependencies
       run: |
+        sudo apt-get install python3.6-tk
         python -m pip install --upgrade pip
         pwd
         ls
